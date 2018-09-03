@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonShowBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Book"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <Button
+        android:id="@+id/buttonAddBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Book"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/buttonCreateMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Member"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+
+    <Button
+        android:id="@+id/buttonBorrowBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member borrow book"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+</LinearLayout>
